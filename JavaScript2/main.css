@@ -1,0 +1,31 @@
+#screen {
+    color: white;
+    background-color: black;
+    border: solid 1px black;
+    width: 212px;
+    text-align: right;
+    font-size: 20px;
+}
+
+/* ボタン */
+button {
+    color: black;
+    background-color: #BFC5CA;
+    font-size: 20px;
+    font-weight: 200;
+    border: 1px solid #333;
+    width: 50px;
+    border-radius: 5px;
+}
+
+#ac ,#equals {
+    width: 104px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:focus {
+    border: 1px solid blue;
+}
